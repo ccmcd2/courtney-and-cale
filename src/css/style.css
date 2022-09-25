@@ -1044,18 +1044,6 @@ p.open-quotes, p.close-quotes {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    @keyframes button-block-animation {
-        from {transform: translateY(-400px);}
-        to {transform : translateY(0);}
-    }
-
-    .btn-block-container a {
-        animation-name: button-block-animation;
-        animation-duration: 250ms;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
     .close-quotes {
         top: 260px;
