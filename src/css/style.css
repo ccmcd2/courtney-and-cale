@@ -1462,6 +1462,7 @@ section.wedding-info {
     left: -12px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .answer {
@@ -1479,6 +1480,7 @@ section.wedding-info {
 .question span {
     font-size: 30px;
     padding-left: 15px;
+    text-align: right;
 }
 
 .accordion {
@@ -1504,10 +1506,6 @@ section.wedding-info {
     .accordion:hover {
         width: calc(80% + 25px);
         transition: width 250ms ease;
-    }
-
-    .question span {
-        right: 45px;
     }
 }
 
