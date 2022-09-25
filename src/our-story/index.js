@@ -75,7 +75,7 @@ const OurStory = () => {
                         <div class="img-container" id="proposal-2"></div>
                     </div>
                 </section>
-                <section className="our-story last next-back-buttons open">
+                <section className="our-story next-back-buttons open">
                     <button className={`btn-primary ${backBtnClass}`} onClick={() => {if (tab > 0)setTab(tab - 1);}}>&#60;&nbsp;&nbsp;Back</button>
                     <button className={`btn-primary ${nextBtnClass}`} onClick={() => {if (tab < 2)setTab(tab + 1);}}>Next&nbsp;&nbsp;&#62;</button>
                 </section>

@@ -1085,6 +1085,7 @@ section.our-story.open {
     width: 100%;
     height: calc(100vw * 0.6);
     background-size: cover;
+    margin: 10px 0;
 }
 
 .our-story div h2 .icon-circle {
@@ -1137,6 +1138,7 @@ section.our-story.open {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0;
 }
 
 .next-back-buttons button.disabled {
