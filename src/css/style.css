@@ -730,8 +730,8 @@ nav div a:link, nav div a:active, nav div a:visited {
     color: var(--dark);
     text-decoration: none;
     font-family: 'Proxima Nova Condensed Semibold', sans-serif;
-    font-size: 20px;
-    margin: 10px 0;
+    font-size: 30px;
+    margin: 25px 0;
 }
 
 @keyframes nav-open-animation {
