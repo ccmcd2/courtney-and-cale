@@ -15,12 +15,12 @@ import FAQs from "./faq/index";
 import Registry from "./registry/index";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXcVE2D6KOsP1XBtxCd7R60XFlSS8Zivg",
-  authDomain: "wedding-website-6cbcd.firebaseapp.com",
-  projectId: "wedding-website-6cbcd",
-  storageBucket: "wedding-website-6cbcd.appspot.com",
-  messagingSenderId: "130434191450",
-  appId: "1:130434191450:web:9e7f932bd51a55adf50863"
+  apiKey: "AIzaSyBoF_mPP0blWLbF3VivLwgnvlK-eFkYXHo",
+  authDomain: "wedding-website-2-8bc5e.firebaseapp.com",
+  projectId: "wedding-website-2-8bc5e",
+  storageBucket: "wedding-website-2-8bc5e.appspot.com",
+  messagingSenderId: "507851903701",
+  appId: "1:507851903701:web:860d54e54f0c6bcd71485c"
 };
 
 // Initialize Firebase
