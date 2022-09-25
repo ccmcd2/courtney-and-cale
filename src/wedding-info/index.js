@@ -23,6 +23,7 @@ import WeddingInfoImg from "../img/weddinginfo.png";
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import ArrowLeft from "../img/left-arrow.svg";
 import ArrowRight from "../img/right-arrow.svg";
+import { HashLink as Link } from "react-router-hash-link";
 
 const WeddingInfo = () => {
     const LeftArrow = () => {
@@ -61,7 +62,7 @@ const WeddingInfo = () => {
                             <IconCircle image={Tie} className="secondary"></IconCircle>
                             <p><span>Dress code:</span><br/>Semi-formal</p>
                         </div>
-                        <p>More details will be available closer to the event. If your question can’t wait, view our <a href="/faq">FAQs</a> or <a href="/faq#contact-us">contact us</a>.</p>
+                        <p>More details will be available closer to the event. If your question can’t wait, view our <a href="/faq">FAQs</a> or <Link to="/faq#contact-us">contact us</Link>.</p>
                     </div>
                     <div class="col-xs-12 col-lg-7 gallery right large">
                         <div class="img-container" id="dalmore"></div>
