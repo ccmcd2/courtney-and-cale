@@ -744,7 +744,7 @@ nav div a:link, nav div a:active, nav div a:visited {
     to {right: -80vw;}
 }
 
-nav div {
+nav #main-navigation {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -762,7 +762,7 @@ nav div {
     animation-duration: 250ms;
 }
 
-nav div a:hover {
+nav #main-navigation a:hover {
     color: var(--secondary);
 }
 
@@ -773,7 +773,7 @@ nav {
     align-items: flex-end;
     background-color: var(--primary);
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     position: absolute;
     top: 0;
     right: 0;
@@ -799,11 +799,15 @@ nav #bars {
     visibility: visible
 }
 
-nav div.open #bars {
+nav div.no-home-button {
     display: none;
 }
 
-nav div.open {
+nav #main-navigation.open #bars {
+    display: none;
+}
+
+nav #main-navigation.open {
     visibility: visible;
     animation-name: nav-open-animation;
     animation-duration: 250ms;
@@ -829,7 +833,7 @@ nav div.open {
         left: 0;
     }
 
-    nav div {
+    nav #main-navigation {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -855,7 +859,7 @@ nav div.open {
         display: none;
     }
 
-    nav div a:link, nav div a:active, nav div a:visited {
+    nav #main-navigation a:link, nav div a:active, nav div a:visited {
         font-size: 20px;
     }
 }
