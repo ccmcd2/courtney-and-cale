@@ -19,7 +19,7 @@ const FAQs = () => {
                   <Accordion className="" question="Where are you registered?">
                     <p>Please know that your presence at our wedding is present enough! However, for those who would like to bring a gift, we have created an <a href='https://www.amazon.com/wedding/share/courtneyandcaleAmazon'>Amazon registry</a>.</p>
                   </Accordion>
-                  <Accordion className="" question="What do you mean by semi-formal?">
+                  <Accordion className="" question="What do you mean by semi-formal attire?">
                     <p>Masculine clothing options include a suit or a shirt and tie with a nice pair of slacks. For feminine attire, a cocktail dress, flowy dress, or dressy suit is perfect.</p>
                   </Accordion>
                   <Accordion className="" question="Can I take pictures during the ceremony?">

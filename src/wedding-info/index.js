@@ -19,6 +19,7 @@ import Elaine from "../img/elaine.jpg";
 import Parker from "../img/parker.jpg";
 import Payton from "../img/payton.jpg";
 import Alejandro from "../img/alejandro.jpg";
+import Kallie from "../img/kallie.jpg";
 import WeddingInfoImg from "../img/weddinginfo.png";
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import ArrowLeft from "../img/left-arrow.svg";
@@ -147,7 +148,7 @@ const WeddingInfo = () => {
                                 <span>Flower Guy</span>
                                 <p>Colin is Courtney's oldest brother and has been a great source of laughter and occasional chagrin over the years.</p>
                             </PartyMember>
-                            <PartyMember image={Person}>
+                            <PartyMember image={Kallie}>
                                 <h4>Kallie</h4>
                                 <span>Ring Bearer</span>
                                 <p>As Courtney's coolest cousin and a responsible young lady, Kallie fits the bill perfectly for ring bearer.</p>
