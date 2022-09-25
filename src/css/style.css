@@ -869,18 +869,22 @@ footer {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: var(--primary);
 }
 
 footer p {
-    margin: 5px;
+    margin: 3px;
     text-align: center;
 }
 
 @media only screen and (min-width: 992px) {
     footer {
         padding: 1% 5%;
+    }
+
+    footer p {
+        margin: 5px;
     }
 }
 
