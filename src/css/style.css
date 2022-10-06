@@ -1509,6 +1509,10 @@ section.wedding-info {
     margin-bottom: 20px;
 }
 
+#contact-us .row p {
+    margin: 0;
+}
+
 @media only screen and (min-width: 992px) {
     .accordion, #contact-us {
         width: 80%;
