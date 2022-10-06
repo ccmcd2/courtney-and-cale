@@ -15,7 +15,7 @@ const Registry = () => {
             <div class="section-container">
                 <section class="last">
                     <div class="registry-info">
-                        <p>Please know that your presence at our wedding is present enough! However, for friends and family who have been asking for gift ideas, we have created the registry below.</p>
+                        <p>Please know that your presence at our wedding is present enough! However, for friends and family who have been asking for gift ideas, we have created the registry below. Cash gifts are also welcome (but not expected) and will be put towards a buying our first home together.</p>
                         <a class="btn-secondary" href="https://www.amazon.com/wedding/share/courtneyandcale" target="_blank">Amazon Registry</a>
                     </div>
                 </section>
