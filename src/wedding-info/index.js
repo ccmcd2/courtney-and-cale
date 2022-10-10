@@ -53,7 +53,7 @@ const WeddingInfo = () => {
                         <h2>Details</h2>
                         <div class="row">
                             <IconCircle image={LocationPin} className="secondary"></IconCircle>
-                            <p><span>When:</span><br/>July 15, 2022</p>
+                            <p><span>When:</span><br/>July 15, 2023</p>
                         </div>
                         <div class="row">
                             <IconCircle image={Calendar} className="secondary"></IconCircle>

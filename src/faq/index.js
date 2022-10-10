@@ -17,7 +17,7 @@ const FAQs = () => {
             <div class="section-container">
               <section>
                   <Accordion className="" question="Where are you registered?">
-                    <p>Please know that your presence at our wedding is present enough! However, for those who would like to bring a gift, we have created an <a href='https://www.amazon.com/wedding/share/courtneyandcaleAmazon'>Amazon registry</a>. Cash gifts are also welcome (but not expected) and will be put towards a buying our first home together.</p>
+                    <p>Please know that your presence at our wedding is present enough! However, for those who would like to bring a gift, we have created an <a href='https://www.amazon.com/wedding/share/courtneyandcale' target="_blank">Amazon registry</a>. Cash gifts are also welcome (but not expected) and will be put towards our first home together.</p>
                   </Accordion>
                   <Accordion className="" question="What do you mean by semi-formal attire?">
                     <p>Masculine clothing options include a suit or a shirt and tie with a nice pair of slacks. For feminine attire, a cocktail dress, flowy dress, or dressy suit is perfect.</p>
