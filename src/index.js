@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import OurStory from "./our-story/index";
 import FAQs from "./faq/index";
 import Registry from "./registry/index";
+import Contact from "./contact/index";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBoF_mPP0blWLbF3VivLwgnvlK-eFkYXHo",
@@ -36,7 +37,7 @@ root.render(
         <Route path="wedding-info" element={<WeddingInfo/>} />
         <Route path="our-story" element={<OurStory/>}/>
         <Route path="faq" element={<FAQs/>}/>
-        <Route path="contact" element="contact"/>
+        <Route path="contact" element={<Contact/>}/>
         <Route path="rsvp" element="rsvp"/>
         <Route path="registry" element={<Registry/>} />
         <Route path="*" element="no page"/>

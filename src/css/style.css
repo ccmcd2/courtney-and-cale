@@ -1600,3 +1600,18 @@ section.wedding-info {
 }
 
 /* end of object-position fixes for images */
+
+/* rsvp form */
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* end of rsvp form */
